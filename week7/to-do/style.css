@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: auto;
+    width: 95%;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: Rampart One, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+#toRead {
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+#toRead > button {
+    width: 96%;
+    height: 40px;
+    margin-top: 5%;
+    box-shadow:
+    0 0 60px 30px #fff,  
+    0 0 100px 60px rgb(216, 83, 216), 
+    0 0 140px 90px rgb(36, 145, 218); 
+    font-family: Noto Serif Display;
+}
+#addBook, #addAuthor {
+    height: 40px;
+    background-color: darkgrey;
+    opacity: 70%;
+    font-family: Noto Serif Display;
+}
+li {
+    font-size: 40px;
+    list-style-type: none;
+    color: darkblue;
+}
