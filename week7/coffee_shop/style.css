@@ -1,0 +1,80 @@
+.grid-container {
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "nav nav nav nav"
+    "header header header header"
+    "welcome welcome welcome welcome"
+    "main main order order"
+    "main main order order"
+    "footer footer footer";
+}
+nav {
+    grid-area: nav;
+    text-align: center;
+    font-size: medium;
+    font-family: Fjalla One, sans-serif;
+    background-color: lightslategray;
+    margin-bottom: 0px;
+}
+a {
+    color: thistle;
+}
+a:hover {
+    color: limegreen;
+}
+
+header {
+    grid-area: header;
+    background-color: teal;
+    text-align: center;
+    font-family: Festive, sans-serif;
+    font-size: 50px;
+    margin-top: 0px;
+    line-height: 7%;
+    color: mediumturquoise;
+}
+
+#welcome {
+    grid-area: welcome;
+    text-align: center;
+    background-color: mediumvioletred;
+    font-family: Six Caps, sans-serif;
+    letter-spacing: 3px;
+    font-size: xx-large;
+}
+#welcome > h2 {
+    color: mintcream;
+}
+main {
+    grid-area: main;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 10%;
+    box-shadow: 0 0 5px #FF0000, 0 0 25px #0000FF; 
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+#order {
+    grid-area: order;
+    text-align: center;
+    font-family: Fjalla One, sans-serif;
+}
+button {
+    margin-left: 45%;
+    font-family: Fjalla One, sans-serif;
+    background-color: lightsalmon;
+    font-size: x-large;
+}
+footer {
+    grid-area: footer;
+    text-align: center;
+    font-family: Fjalla One, sans-serif;
+    background-color: lightskyblue;
+}

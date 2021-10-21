@@ -1,188 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Other HTML Types</title>
         <link rel="stylesheet" href="html_types.css">
+        <meta charset="UTF 8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <title>HTML Types</title>
     </head>
+
     <body>
-        <div>
-            <i class="fas fa-shopping-cart"></i>
-        </div>
+        <form action="#" id="myForm"><label>
+            <h1>Other HTML Types</h1>
+            <input type="text" name="user" id="fName" value="First Name">
+            <br><br>
+            <input type="text" name="user" id="lName" value="Last Name">
+            <br><br> 
+            <input type="number" name="user" id="age" value="age"
+            placeholder="Age">
+            <br><br>
+            </label>
 
-        <nav id="navbar"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Shop</a>
-            <a href="#">Contact</a>
-        </nav>
+            <label for="food">What did you order today?</label>
+            <br>
+            Cheeseburger: 
+            <input type="checkbox" name="cheeseburger" id="cheeseburger" value="cheeseburger">
+            Chicken Wings:
+            <input type="checkbox" name="chicken" id="chicken" value="chicken">
+            Salad:
+            <input type="checkbox" name="salad" id="salad" value="salad">
+        
+            <br><br>
+            <label for="menu">Would you order it again?</label>
+            <br>
+            <select name="select" id="menu">
+                <option value="Yes" id="menuSelect">Yes</option>
+                <option value="No" id="menuSelect">No</option>
+                <option value="Maybe" id="menuSelect">Maybe</option>
+            </select> 
             
-        <span><header><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Birthstone">Rosesio</header></span>
-            <p class="intro"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yaldevi">Welcome to <span id="bName">Rosesio</span>. Your #1 online Health and Wellness shop.</p>
-
-            <main>
-                <div class="homeContent">
-                    <img class="pic1" src="https://media.istockphoto.com/photos/wellness-sign-with-wooden-cubes-picture-id513319180?b=1&k=20&m=513319180&s=170667a&w=0&h=vhYdVc-IHZLyS3xqNVuUTcBFpsdJRKPmLzFQpgKnpJY=" height="400px" width="800px">
-                <p id="quote" class="font-effect-fire"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Birthstone&effect=fire">Be a HEALTHIER you</p>
-                <textarea rows="5" cols="90">Rosesio is your one stop health and wellness shop. We believe in helping people become a healthier them through natural supplements and clean eating. We also believe a little exercise goes a long way.
-                    We are dedicated to helping our community via exercise tips, meal planning, recommended supplements for your individualized health needs and ways to help relax your mind and body.
-                </textarea>
-                </div>
+            <br><br>
+            <label for="serve">Who was your Server?</label>
+            <br>
+            <label for="serve">Eric</label>
+            <input type="radio" name="radio" value="Eric" id="server">
+            <br>
+            <label for="serve">Sloan</label>
+            <input type="radio" name="radio" value="Sloan" id="server">
+            <br>
+            <label for="serve">John</label>
+            <input type="radio" name="radio" value="John" id="server">
+            <br>
+            <label for="serve">Willow</label>
+            <input type="radio" name="radio" value="Willow" id="server">
+            <br>
+            <label for="serve">Grace</label>
+            <input type="radio" name="radio" value="Grace" id="server">
+            <br><br>
+            <button type="button" value="submit" id="button" name="submit">Submit</button>
+        </form>
         
-                <article class="items">
-                <section>
-                    <h2 class="yoga">Tips For a Better You</h2>
-                    <ul>
-                        <li>Take a natural supplement</li>
-                        <li>Exercise at least 30 min everyday, even if it's just a walk around the block</li>
-                        <li>Give yourself time to breathe (It's important to give yourself a break here and there. Even if it's just 5 minutes)</li>
-                        <li>Read often</li>
-                        <li>Do things that make you happy</li>
-                    </ul>
-                </section>
-                </article>
-                
-                <article>
-                    <h2 class="yTable">5 Yoga Positions and How They Help</h2>
-                    <table>
-                        <tr>
-                    <th>Positions</th>
-                    <th>Benefits</th>
-                        </tr>
-                    <tr>
-                        <td>Bridge</td>
-                        <td>Opens front hip joint, strengthens spine, stimulates thyroid</td>
-                    </tr>
-                    <tr>
-                        <td>Downward Dog</td>
-                        <td>Lengthens and decompresses spine, flushes brain with fresh oxygen</td>
-                    </tr>
-                    <tr>
-                        <td>Child Pose</td>
-                        <td>Relieves neck, back and hip strain</td>
-                    </tr>
-                    <tr>
-                        <td>Easy Pose</td>
-                        <td>Hip opener, natural menstral pain reliever, calming</td>
-                    </tr>
-                    <tr>
-                        <td>Warrior 1</td>
-                        <td>Strengthens legs, opens chest and shoulders, stretches spine, relaxes your body and improves focus</td>
-                    </tr>
-                    </table>
-        
-                <span class="photos">
-                <img src="https://media.istockphoto.com/photos/woman-doing-yoga-by-the-river-at-sunset-picture-id1322327093?b=1&k=20&m=1322327093&s=170667a&w=0&h=3EuBSarR9sKE8Fbh45Ym7GvQed7cBbDKvMG5s_V9xPg=" height="200" width="200">
-                <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZG93bndhcmQlMjBkb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                <img src="https://images.unsplash.com/photo-1612732362547-14adf627f24e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkJTIwcG9zZSUyMHlvZ2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHlvZ2ElMjBzdW5zZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                <img src="https://images.unsplash.com/photo-1578264393583-5af080a33c45?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHlvZ2ElMjBzdW5zZXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                </span>
-                    </article>
-        
-            <aside class="font-effect-neon" id="rosesio"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Explora&effect=neon">Rosesio is dedicated to helping you become the most zen version of yourself.
-            <br>Click the contact button for our email address, and take the first step to being the best you you can be!</aside>
-                
-                <article>
-                <h2 id="shop" class="font-effect-fire"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Birthstone&effect=fire">Shop With Us!</h2>
-                <section class="img1">
-                <h4>Tumeric and Papaya Mid-day Booster Smoothie</h4>
-                <p>$14.99</p>
-                    <img class="smoothie" src="https://images.unsplash.com/photo-1526430439824-f9701bdb2320?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWx0aCUyMGFuZCUyMHdlbGxuZXNzJTIwcHJvZHVjdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                <p>Give yourself the mid-day energy you need, to fight that 3pm crash!</p>    
-                </section>
-                    <section class="img2">
-                <h4>Green Things Power Up Protein Drink</h4>
-                <p>$9.99</p>    
-                    <img class="power" src="https://images.unsplash.com/photo-1603352746709-5254ae3226b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHN1cHBsZW1lbnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                    <p>Our Power Up Protein provides you with 20g of protein to get you ready for the day!</p>     
-                </section>
-                    <section class="img3">
-                        <h4>Tumeric Vitality Shot</h4>
-                        <p>9.99</p>                  
-                        <img class="tumeric" src="https://images.unsplash.com/photo-1524638067-feba7e8ed70f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGhlYWx0aCUyMGFuZCUyMHdlbGxuZXNzJTIwcHJvZHVjdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                        <p>This mix of tumeric, black pepper, lemon and coconut water is a cold-pressed dream!<br>One of these a week will help with inflammation and protect your body from free radicals!</p> 
-                    </section>
-                    <section class="img4">
-                        <h4>Mega Matcha Powder</h4>
-                        <p>$16.99</p>                    
-                        <img class="matcha" src="https://images.unsplash.com/photo-1608503021331-53135c8abdab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHdlbGxuZXNzJTIwcHJvZHVjdHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200">
-                        <p>Boost brain function and promote heart health with our matcha powder!<br>You can add this to coffee, tea, protein shakes and even desserts!</p>
-                    </section>
-                    <section class="img5">
-                        <h4>Collagen Gummies</h4>
-                        <p>$14.99</p>                
-                        <img class="collagen" src="https://www.behindthefalselashes.com/wp-content/uploads/2019/03/05a2b23e-41c6-46da-b701-a2dea8cb6d0f-1.jpg" height="200" width="200">
-                        <p>Improve skin health, elasticity and hair health with our collagen gummies!</p>
-                    </section>
-                    <section class="img6">
-                        <h4>Sun Mylk Tumeric Latte and Adaptogen</h4>
-                        <p>$17.99<p>
-                            <img class="latte" src="https://images.unsplash.com/photo-1608317872936-706496600f66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWx0aCUyMHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="200" width="200"> 
-                        <p>This tumeric adaptogen can be used in your morning coffee, smoothie or protein.<br>Add this powerful antioxidant to your everyday lifestyle!</p>
-                    </section>
-                </article><br><br>
-
-<form name="customerSurvey" id="myForm">        
-    <section name="user">
-    <h2 id="customerInfo" class="font-effect-fire"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Birthstone&effect=fire">Customer Info and Survey</h2>
-    <br>
-    <input id='fName' name="user" type="text" placeholder="First Name Here">
-    <input id='lName' name="user" type="text" placeholder="Last Name Here">
-    <input id='age' name="user" type="number" placeholder="Age Here">
-    </section>
-    <section >
-    <h3>Is this your first time shopping with us?</h3> 
-    <br>
-    <input name="q1" type="radio" value="Yes">
-    <label for="q1">Yes</label>
-    <input name="q1" type="radio" value="No">
-    <label for="q1">No</label>
-    <br>
-   <h3>Will you be returning after your experience today?</h3> <select name="dropdown">
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-        <option value="Unsure">Unsure</option>
-        <br><br>
-    </select>
-    </section>
-    <section>
-    <h3>What products did you purchase today?</h3>
-    <br> 
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2"> Tumeric and Papaya Mid-day Booster Smoothie</label>
-    <br>   
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2">Green Things Power Up Protein Drink</label>
-    <br>   
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2">Tumeric Vitality Shot</label>
-    <br>
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2">Mega Matcha Powder</label>
-    <br>
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2">Green Things Power Up Protein Drink</label>
-    <br>
-    <input name="q2" id="q2" type="checkbox">
-    <label for="q2">Sun Mylk Tumeric Latte and Adaptogen</label>
-    <br>
-    </section>
-    <input id="myBtn" type="submit" value="Submit" onclick="Alert()">
-    </form>
-    </main>
-
-    <footer>
-    <h4 class="footer">Accepted forms of payment:</h4>
-    <i class="fab fa-cc-visa"></i>
-    <i class="fab fa-cc-discover"></i>
-    <i class="fab fa-cc-amex"></i>
-    <i class="fab fa-cc-mastercard"></i>
-    <i class="fab fa-amazon-pay"></i>
-    <i class="fab fa-apple-pay"></i>
-    <i class="fab fa-paypal"></i>
-   </footer>
-       
-   <script src="html_types.js"></script>
-   <script src="https://kit.fontawesome.com/056e2d1117.js" crossorigin="anonymous"></script>
+        <script src="html_types.js"></script>
     </body>
 </html>

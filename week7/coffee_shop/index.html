@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemstone Coffee</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <div class="grid-container">
+  <body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Festive">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Six Caps">
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Coffee News</a>
+      <a href="#">Contact</a>
+    </nav>
+    <header>
+      <h1>Gemstone Coffee</h1>
+    </header>
+    <div id="welcome">
+      <h2>Welcome to your new favorite place for all things C O F F E E!</h2>
+     <p>Order from the list below</p> 
+    </div>
+<main>
+  <form action="#">
+    <ul>
+      <img id="img_1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCO3RN3xAZcjoHdL-g1XRr6vurBfbZeX6mjQ&usqp=CAU" height="250" width="auto" alt="coffee">
+      <li class="price">Black Coffee: $2.00</li>
+    <label for="coffee1">Qty: </label>
+    <input type="number" name="coffee1" id="coffee1" value="0" max="5">
+    <br><br>
+    <img id="img_2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ywRFZCkhFbDLSF2ulVqZNTiPlKNmGVAtxA&usqp=CAU" height="300" width="auto" alt="cold-brew">
+    <li class="price">Cold Brew Coffee: $4.00</li>
+    <label for="coffee2">Qty: </label>
+    <input type="number" name="coffee2" id="coffee2" value="0" max="5">
+  <br><br>
+  <img id="img_3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGMJXZuDWcUERO4w96nt6OdnMfOVuBfuAesA&usqp=CAU" height="300" width="auto" alt="van-latte">
+  <li class="price">Vanilla Latte: $4.00</li>
+    <label for="coffee3">Qty: </label>
+    <input type="number" name="coffee3" id="coffee3" value="0" max="5">
+  <br><br>
+  <img id="img_4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAv7lAeDxlIURLH9O_2HsTuSpYbHPceGBbA&usqp=CAU" height="300" width="auto" alt="tea">
+  <li class="price">Chai Tea: $3.00</li>
+  <label for="coffee4">Qty: </label>
+  <input type="number" name="coffee4" id="coffee4" value="0" max="5">  
+</ul>
+<button id="submit">Submit Your Order</button>
+  </form>
+</main>
+<div id="order">
+  <h3>Items in Cart:</h3>
+  <p id="items"></p>
+  <h3>Amount Owed:</h3>
+  <p id="items-price"></p>
+</div>
+
+<footer>
+  Contact US!<br>
+  gemstonecoffee@gmail.com | www.gemstonecoffee.co<br>
+  (123)-456-7890<br>
+  Come in and check out our shop!<br>
+  456 S Gold Ave Garfield, NJ 89503
+</footer>
+</body>
+<script src="app.js"></script>
+  </body>
+</html>
